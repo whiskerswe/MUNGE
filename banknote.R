@@ -117,7 +117,7 @@ performMungeBanknote<-function(){
     result1.500<-munge1(5000, trainData)
     result2.2000<-munge2(20000,trainData)
     result2.500<-munge2(5000,trainData)
-    result3.2000<-munge3(50000,trainData)
+    result3.2000<-munge3(20000,trainData)
     result3.500<-munge3(5000,trainData)
     #Småfix av egenskaper som försvinner när ett dataframe tas emot
     
@@ -179,7 +179,7 @@ performMungeBanknote<-function(){
   #Dataframe med normaliserad och ihopblandad data
 
   getwd()
-  data1 <- read.table("C:/datasetsR/banknote.txt",
+  data1 <- read.table("C:/home/datasets/banknote.txt",
                       header = FALSE)
   head(data1)
   
