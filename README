@@ -1,0 +1,8 @@
+Compile DataPreparation so that all methods are present in the workspace. 
+
+Before compiling and running each program the dataset directory needs to be 
+updated. All datasets needed are included in the zip-file, but they are also
+available on http://archive.ics.uci.edu/ml/ .
+
+The application uses some libraries that need to be imported in R. See the code 
+for more information.
