@@ -1,6 +1,6 @@
-Compile DataPreparation so that all methods are present in the workspace. 
+Compile DataPreparation so that all common methods are present in the workspace. 
 
-Before compiling and running each program the dataset directory needs to be 
+Before compiling and running each program the dataset directories in each dataset specific file need to be 
 updated. All datasets needed are included in the zip-file, but they are also
 available on http://archive.ics.uci.edu/ml/ .
 
